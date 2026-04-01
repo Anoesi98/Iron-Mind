@@ -47,7 +47,7 @@ This is a **single HTML file** — no build step, no dependencies, no framework.
 2. Go to **Settings → Pages → Source: main branch**
 3. Your site is live
 
-### Vercel / Netlify
+### Vercel 
 
 Drag the file (or a folder containing it) into the deploy interface. Done.
 
@@ -61,8 +61,10 @@ Open `index.html` in any browser. Everything works offline except the Google Fon
 
 ```
 /
-├── index.html          ← The entire app (single file, ~30KB gzipped)
-└── README.md
+├── README.md
+├── apple-touch-icon.png 
+├── favicon.ico
+└── index.html          ← The entire app (single file, ~30KB gzipped)
 ```
 
 No `favicon.ico` needed — the favicon is embedded as an inline SVG data URI inside the HTML.
